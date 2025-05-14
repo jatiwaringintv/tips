@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jatiwaringin TV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    nav {
+      background: #2c3e50;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: #f1f1f1;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    .hero {
+      background: url("https://source.unsplash.com/1600x500/?tv,studio") no-repeat center center/cover;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 3px 6px rgba(0,0,0,0.5);
+      font-size: 2rem;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .section {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #2c3e50;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: #34495e;
+    }
+
+    .card p {
+      color: #666;
+    }
+
+    .about {
+      background: #ffffff;
+      border-left: 5px solid #f39c12;
+      padding: 2rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+
+    .cta {
+      background: #f39c12;
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .cta a {
+      background: white;
+      color: #f39c12;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background: #fef5e7;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: #ddd;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jatiwaringin TV</h1>
+    <p>Menjangkau Komunitas, Menyuarakan Kebenaran, Menyajikan Realita</p>
+  </header>
+
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Berita</a>
+    <a href="#">Program TV</a>
+    <a href="#">Komunitas</a>
+    <a href="#">Video</a>
+    <a href="#">Kontak</a>
+  </nav>
+
+  <div class="hero">
+    Saluran Digital Lokal untuk Generasi Visioner
+  </div>
+
+  <section class="section">
+    <h2>Berita Terbaru</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Road Show Pendidikan di Jatiwaringin</h3>
+        <p>Jatiwaringin TV liput kampanye pendidikan digital bersama Dinas Pendidikan setempat, menjangkau ratusan pelajar.</p>
+      </div>
+      <div class="card">
+        <h3>Program Talkshow UMKM Kembali Hadir</h3>
+        <p>Episode terbaru program "Suara Lokal" angkat kisah pengusaha kecil dari Jatibening ke pentas digital nasional.</p>
+      </div>
+      <div class="card">
+        <h3>Kampung Ramah Anak Raih Apresiasi Nasional</h3>
+        <p>RW 04 Jatiwaringin dapat penghargaan lingkungan layak anak oleh Kementerian Sosial. Liputan eksklusif hanya di Jatiwaringin TV.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about">
+    <h2>Tentang Jatiwaringin TV</h2>
+    <p><strong>Jatiwaringin TV</strong> adalah media digital yang berkomitmen untuk menghadirkan informasi lokal berkualitas, edukatif, dan inspiratif. Kami berfokus pada pemberdayaan komunitas melalui jurnalisme video, berita terkini, dan tayangan informatif berbasis kearifan lokal. Sebagai televisi komunitas berbasis web, kami memproduksi dan menyebarkan konten untuk warga Jatiwaringin dan sekitarnya dengan semangat kolaboratif dan semangat kebhinekaan.</p>
+  </section>
+
+  <section class="cta">
+    <h2>Gabung Jadi Kontributor atau Mitra Media</h2>
+    <p>Bantu kami menyuarakan kisah-kisah dari daerahmu. Mari jadi bagian dari media independen lokal!</p>
+    <a href="#">Hubungi Kami</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Jatiwaringin TV — Semua Hak Dilindungi. Disiarkan dengan semangat komunitas dan inklusivitas.
+  </footer>
+
+</body>
+</html>
